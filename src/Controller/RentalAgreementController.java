@@ -217,7 +217,6 @@ public class RentalAgreementController implements BaseController<RentalAgreement
 
     @Override
     public void UpdatePage() {
-        ViewPage();
         RentalAgreement rentalAgreement = (RentalAgreement) InputPage();
         Response response = rentalManager.update(rentalAgreement);
         System.out.println("=== Update Rental Agreement ===");
