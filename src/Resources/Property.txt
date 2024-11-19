@@ -1,0 +1,15 @@
+Property,Property_1,206 New York,199.00,AVAILABLE
+CommercialProperty,Property_2,207 New York,299.00,RENTED,Homestay,5,64.0
+ResidentialProperty,Property_3,208 New York,399.00,UNDER_MAINTENANCE,4,1,1
+Property,Property_4,209 New York,499.00,AVAILABLE
+CommercialProperty,Property_5,210 New York,599.00,RENTED,Hotel,3,45.0
+ResidentialProperty,Property_6,211 New York,699.00,UNDER_MAINTENANCE,2,1,0
+Property,Property_7,212 New York,799.00,AVAILABLE
+CommercialProperty,Property_8,213 New York,899.00,RENTED,Hotel,2,100.0
+ResidentialProperty,Property_9,214 New York,999.00,UNDER_MAINTENANCE,1,1,0
+Property,Property_10,215 New York,1099.00,AVAILABLE
+CommercialProperty,Property_11,216 New York,1199.00,RENTED,Hotel,1,100.0
+ResidentialProperty,Property_12,217 New York,1299.00,UNDER_MAINTENANCE,0,1,0
+Property,Property_13,218 New York,1399.00,AVAILABLE
+CommercialProperty,Property_14,219 New York,1499.00,RENTED,Hotel,0,100.0
+ResidentialProperty,Property_15,220 New York,1599.00,UNDER_MAINTENANCE,0,1,0

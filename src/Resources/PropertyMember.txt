@@ -1,0 +1,15 @@
+Owner_2,Property_1
+Owner_2,Property_2
+Owner_2,Property_4
+Owner_2,Property_6
+Owner_2,Property_8
+Owner_2,Property_10
+Owner_2,Property_12
+Owner_2,Property_14
+Owner_2,Property_13
+Owner_2,Property_15
+Owner_5,Property_3
+Owner_8,Property_5
+Owner_11,Property_7
+Owner_14,Property_9
+Owner_17,Property_11
