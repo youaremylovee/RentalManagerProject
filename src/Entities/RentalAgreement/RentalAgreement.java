@@ -210,22 +210,6 @@ public class RentalAgreement implements Entity {
                 DateHandler.formatDate(rentalStartDate), DateHandler.formatDate(rentalEndDate), rentalPeriod.toString(), rentalFee, status.toString());
     }
 
-    private String toRentalAgreementMember(String type, String idPerson){
-        return String.format("%s,%s,%s", idPerson, agreementId,type);
-    }
-    public List<String> toRentalAgreementMember(){
-        List<String> result = new ArrayList<>();
-        for(Tenant tenant : subTents){
-            result.add(toRentalAgreementMember("subtenant", tenant.getId()));
-        }
-        for(Host host : hosts){
-            result.add(toRentalAgreementMember("host", host.getId()));
-        }
-        result.add(toRentalAgreementMember("mainTenant", mainTenant.getId()));
-        result.add(toRentalAgreementMember("owner", owner.getId()));
-        return result;
-    }
-
     @Override
     public List<String> validate() {
         List<String> errors = new ArrayList<>();
